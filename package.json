@@ -9,10 +9,21 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@types/cors": "^2.8.6",
+    "@types/helmet": "^0.0.45",
+    "@types/morgan": "^1.9.0",
     "@types/node": "^13.9.2",
     "nodemon": "^2.0.2",
     "ts-node": "^8.7.0",
     "tslint-config-prettier": "^1.18.0",
     "typescript": "^3.8.3"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "graphql-tools": "^4.0.7",
+    "graphql-yoga": "^1.18.3",
+    "helmet": "^3.21.3",
+    "merge-graphql-schemas": "^1.7.6",
+    "morgan": "^1.10.0"
   }
 }
