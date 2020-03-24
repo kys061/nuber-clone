@@ -1,5 +1,10 @@
+type SayByeResponse {
+  text: String!
+  error: Boolean!
+}
+
 type Query {
-  sayBye: String!
+  sayBye(name: String!): SayByeResponse!
   sayHello(name: String!): SayHelloResponse!
 }
 
